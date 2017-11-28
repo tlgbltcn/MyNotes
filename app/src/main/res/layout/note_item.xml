@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:id="@+id/notesContainer"
+    android:layout_margin="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="4dp">
+
+
+<TwoLineListItem
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:mode="twoLine"
+    android:paddingStart="?attr/listPreferredItemPaddingLeft"
+    android:paddingEnd="?attr/listPreferredItemPaddingRight"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?attr/listPreferredItemPaddingRight">
+
+    <TextView android:id="@+id/note_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView android:id="@+id/note_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/note_title"
+        android:layout_alignStart="@id/note_title"
+        android:textAppearance="?attr/textAppearanceListItemSecondary"
+        android:layout_alignLeft="@id/note_title" />
+
+</TwoLineListItem>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MyNotes</string>
+    <string name="note_value_hint">Enter your note</string>
+    <string name="note_title_hint">Title</string>
+    <string name="save">Save</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="add_note_activity">New Note</string>
+    <string name="detail_note_activity">Note Detail</string>
+    <string name="list_note_activity">My Notes</string>
+    <string name="login_activity">Login</string>
+</resources>
